@@ -1,12 +1,12 @@
-class animal {
-  constructor(name, age, isMamal){
+class Animal {
+  constructor(name, age, isMammal){
     this.name = name;
     this.age = age;
-    this.isMamal = isMamal;
+    this.isMammal = isMammal;
   }
 }
 
-class Rabbit extends animal {
+class Rabbit extends Animal {
   constructor(name, age){
     super(name, age, true);
   }
@@ -15,7 +15,7 @@ class Rabbit extends animal {
   }
 }
 
-class Eagle extends animal {
+class Eagle extends Animal {
   constructor(name, age){
     super(name, age, false);
   }
